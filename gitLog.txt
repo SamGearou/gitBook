@@ -17,4 +17,4 @@ on one line. git log --pretty format:"" is another
 useful command (formats the log output). git log --graph
 displays an ASCII graph shwoing your branch and merge history. 
 Go to git Log options folder on the desktop and go to the 
-file named "Limiting Output.txt" to see more information.    
+file named "Limiting Output.txt" to see more information 
