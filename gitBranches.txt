@@ -1,0 +1,4 @@
+To create a new branch, use this command:
+git branch branchname.  To delete a branch, use:
+git branch -d branchname. To switch to a different branch, use:
+git checkout branchname. 
