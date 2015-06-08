@@ -1,0 +1,2 @@
+How to rename a file:
+git oldname newname
