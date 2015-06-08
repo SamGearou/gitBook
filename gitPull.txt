@@ -1,0 +1,4 @@
+git pull = git fetch + git merge.  When you
+use get merge you have to specify the remote
+tracking branch you want to merge. Example:
+git merge origin/master. 
