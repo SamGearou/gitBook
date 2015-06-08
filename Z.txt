@@ -1,1 +1,3 @@
-If you do git log, and the logs cannot fit on the screen, it becomes this editor thing, and to exit this mode, you have to hit shift z and then z again.
+If you do git log, and the logs cannot fit on the screen, 
+it becomes this editor thing, and to exit this mode, 
+you have to hit shift z and then z again.
