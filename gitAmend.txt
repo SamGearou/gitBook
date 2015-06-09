@@ -1,0 +1,2 @@
+One of the common undoes takes place when you commit too early and possibly forget to add some files, or you mess up your commit message.  If you want to try that commit again, you can run:
+git commit --amend.
