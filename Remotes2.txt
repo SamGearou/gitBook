@@ -1,4 +1,9 @@
 If you want to see more information about a particular remote, 
 you can use the git remote show [remote-name] command. If you 
 run this command with a particular shortname, such as origin, 
-you get something like this: git remote show origin.
+you get something like this: git remote show origin. If you 
+want to rename a reference you can run git remote rename to 
+change a remote’s shortname. For instance, if you want to rename 
+the remote pb to paul, you can do so with git remote rename: 
+git remote rename pb paul. To remove a remote, you do:
+git remote rm remotename. 
