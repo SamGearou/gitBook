@@ -1,0 +1,3 @@
+the command that lets you unmodify a file is:
+git checkout -- filename
+
