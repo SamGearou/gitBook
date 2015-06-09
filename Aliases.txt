@@ -1,0 +1,8 @@
+Aliases shorten up commands for you. You can easily
+set up an alias for each command using git config.
+Some examples:
+git config --global alias.ci commit
+git config --global alias.st status
+This means that, instead of typing git commit, you 
+just need to type git ci, and instead of typing
+git status, you just need to type git st.   
