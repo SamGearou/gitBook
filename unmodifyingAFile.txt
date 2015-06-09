@@ -1,3 +1,6 @@
 the command that lets you unmodify a file is:
 git checkout -- filename
-
+This command is dangerous, because any changes
+you made to that file will be gone. This is unlike
+commits, where you can always find a previous 
+version of a file
