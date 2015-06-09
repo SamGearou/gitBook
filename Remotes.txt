@@ -18,3 +18,4 @@ to note that the git fetch command pulls the data to your
 local repository – it doesn’t automatically merge it with 
 any of your work or modify what you’re currently working on. 
 You have to merge it manually into your work when you’re ready.
+The git pull command automatically fetches and merges a remote branch into your current branch
