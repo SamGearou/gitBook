@@ -1,0 +1,3 @@
+to unstage a file, the command is:
+git reset HEAD filename
+
