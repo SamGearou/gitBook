@@ -21,4 +21,9 @@ You have to merge it manually into your work when you’re ready.
 The git pull command automatically fetches and merges a remote 
 branch into your current branch. To push to your remotes, the 
 command is: git push remotename branchname. remotename is typically
-origin, while the branchname is typically master.
+origin, while the branchname is typically master. This command works 
+only if you cloned from a server to which you have write access and 
+if nobody has pushed in the meantime. If you and someone else clone 
+at the same time and they push upstream and then you push upstream, 
+your push will rightly be rejected. You’ll have to pull down their 
+work first and incorporate it into yours before you’ll be allowed to push.
