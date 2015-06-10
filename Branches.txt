@@ -16,4 +16,10 @@ This moves HEAD to the nameOfBranch branch. It is important to note that
 switching branches changes files in your working directory. to make a new
 branch and switch to it at the same time , the command is as follows:
 git checkout -b nameOfBranch. to delete a branch, the command is:
-git branch -d nameOfBranch.
+git branch -d nameOfBranch.Say you have two branches, master and deploy,
+to merge master to deploy, since deploy is ahead of master by some commits,
+you perform what's called a fast-forward.  To do this, you switch to the 
+master branch, and then merge deploy. It would look like this:
+git checkout master
+git merge deploy
+This is called a fast-forward.
