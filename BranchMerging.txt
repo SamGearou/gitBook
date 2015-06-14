@@ -2,3 +2,5 @@ To merge a branch, all you have to do is check out the branch you wish to merge 
 run the git merge command: git checkout master, then git merge deploy. This merges the deploy 
 branch into the master branch.  This looks like the same process as a fast-forward, but it is 
 not, because the two branches have diverged, they do not have a direct line of descent.
+If you change the same part of the same file differently in two branches you’re merging 
+together, Git won’t be able to merge them cleanly, and a branch merge conflict exists.
