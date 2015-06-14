@@ -3,7 +3,7 @@ you can run the git remote command.  It lists
 the shortnames of each remote handle you've specified.
 If you've cloned your repository, you should at least 
 see origin- this is the default name Git gives to the
-server you cloned from. gti remote -v shwos you the URLs
+server you cloned from. git remote -v shows you the URLs
 that Git has stored for the shortname to be used when
 reading and writing to that remote. To add a new remote
 Git repository as a shortname you can reference easily, 
@@ -11,13 +11,13 @@ use: git remote add shortname url. Now you can use the
 string shortname on to fetch all information that you
 don't have by doing: git fetch shortname. If you clone 
 a repository, the command automatically adds that remote 
-repository under the name ìoriginî. So, git fetch origin 
+repository under the name ‚Äúorigin‚Äù. So, git fetch origin 
 fetches any new work that has been pushed to that server 
-since you cloned (or last fetched from) it. Itís important 
+since you cloned (or last fetched from) it. It‚Äôs important 
 to note that the git fetch command pulls the data to your 
-local repository ñ it doesnít automatically merge it with 
-any of your work or modify what youíre currently working on. 
-You have to merge it manually into your work when youíre ready.
+local repository ‚Äì it doesn‚Äôt automatically merge it with 
+any of your work or modify what you‚Äôre currently working on. 
+You have to merge it manually into your work when you‚Äôre ready.
 The git pull command automatically fetches and merges a remote 
 branch into your current branch. To push to your remotes, the 
 command is: git push remotename branchname. remotename is typically
@@ -25,5 +25,5 @@ origin, while the branchname is typically master. This command works
 only if you cloned from a server to which you have write access and 
 if nobody has pushed in the meantime. If you and someone else clone 
 at the same time and they push upstream and then you push upstream, 
-your push will rightly be rejected. Youíll have to pull down their 
-work first and incorporate it into yours before youíll be allowed to push.
+your push will rightly be rejected. You‚Äôll have to pull down their 
+work first and incorporate it into yours before you‚Äôll be allowed to push.
