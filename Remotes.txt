@@ -6,10 +6,9 @@ see origin- this is the default name Git gives to the
 server you cloned from. git remote -v shows you the URLs
 that Git has stored for the shortname to be used when
 reading and writing to that remote. To add a new remote
-Git repository as a shortname you can reference easily, 
-use: git remote add shortname url. Now you can use the 
+repository use: git remote add remoteName url. Now you can use the 
 string shortname on to fetch all information that you
-don't have by doing: git fetch shortname. If you clone 
+don't have by doing: git fetch remoteName. If you clone 
 a repository, the command automatically adds that remote 
 repository under the name “origin”. So, git fetch origin 
 fetches any new work that has been pushed to that server 
