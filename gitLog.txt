@@ -15,6 +15,6 @@ changes the log output to formats other than the default.
 Using git log --pretty=oneline will print each commit
 on one line. git log --pretty format:"" is another
 useful command (formats the log output). git log --graph
-displays an ASCII graph shwoing your branch and merge history. 
+displays an ASCII graph showing your branch and merge history. 
 Go to git Log options folder on the desktop and go to the 
 file named "Limiting Output.txt" to see more information 
