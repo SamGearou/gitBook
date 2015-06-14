@@ -1,0 +1,8 @@
+To ignore a file, the command is:
+
+cat .gitignore 
+*.[oa]
+*~
+
+The first line tells git to ignore any files ending in ".0" or ".a".
+The Second line tells git to ignore all files that end with a tilde
