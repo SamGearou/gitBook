@@ -3,4 +3,10 @@ However, there is another way: rebasing. for example, say you have two branches,
 master, and they diverged and they have one common ancestor and one diverged commit each
 say you are on the deploy branch and you run: git rebase master. This will make deploy 
 one commit ahead of master. Then you can do a fast-forward on master so it is up to date
-with deploy
+with deploy. Another interesting command you can use: git rebase --onto master server client
+This basically says, “Check out the client branch, figure out the patches from the common ancestor 
+of the client and server branches, and then replay them onto master
+Another useful command is: git rebase [basebranch] [topicbranch] – which checks out the topic branch 
+(in this case, server) for you and replays it onto the base branch (master)
+For example:git rebase master deploy is the same thing as: git checkout deploy
+and git rebase master
