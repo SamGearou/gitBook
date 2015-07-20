@@ -1,0 +1,15 @@
+Say you have three different branches.  To see the last commit on each
+branch, you can use the command: git branch -v. The git command:
+git branch --merged and git branch --no-merged options can filter this 
+list to branches that you have or have not yet merged into the branch
+you’re currently on.  So say you have three branches, master,deploy, hotfix
+and you have already merged deploy into master, and you have master checked out.
+Running git branch --merged will give you the output:
+*master
+deploy
+because deploy has been merged to master, and hotfix hasn't.  It is usually safe
+to delete all the branches that do not have the * before them, in this case deploy,
+because it is already up to speed with the master branch. I you try to delete hotix
+using git branch -d hotfix, it will not work because hotfix has not been merged to the
+master branch. To be able to delete this branch, you use a capital D, and use this command:
+git branch -D hotfix.
