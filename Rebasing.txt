@@ -1,0 +1,6 @@
+The easiest way to integrate the branches, as we’ve already covered, is the merge command
+However, there is another way: rebasing. for example, say you have two branches, deploy and
+master, and they diverged and they have one common ancestor and one diverged commit each
+say you are on the deploy branch and you run: git rebase master. This will make deploy 
+one commit ahead of master. Then you can do a fast-forward on master so it is up to date
+with deploy
