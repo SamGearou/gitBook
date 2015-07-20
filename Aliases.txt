@@ -13,4 +13,4 @@ you can add your own unstage alias to Git:
 git config --global alias.unstage "reset HEAD --"
 now these two commands are equivalent:
 git unstage fileA
-git reset HEAD fileA.   
+git reset HEAD fileA  
