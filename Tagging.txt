@@ -1,6 +1,6 @@
 Like most VCSs, Git has the ability to tag specific points in history as 
 being important. Typically people use this functionality to mark release 
-points (v1.0, and so on). In this section, you’ll learn how to list the 
+points (v1.0, and so on). In this section, youâ€™ll learn how to list the 
 available tags, how to create new tags, and what the different types of 
 tags are. To list the availabe tags in git, the command is: git tag.
 Git lists the tags in alphabetical order. You can also search for tags
@@ -13,12 +13,12 @@ the tagger name,e-mail, and date; have a tagging message; and can be signed
 and verified with GNU Privacy Guard.  It is gennerally recommended that you 
 create annotated tags so you can have all this information. To create an annotated
 tag, you use: git tag -a tagname -m "my tag message", for example:
-git tag -a v1.4 -m "my version 1.4". If you don’t specify a message for 
+git tag -a v1.4 -m "my version 1.4". If you donâ€™t specify a message for 
 an annotated tag (the -m), Git launches your editor so you can type it in.
 You can see the tag data along with the commit that was tagged by using the 
 git show tagname command. To make a lightweight tag, use the command:
 git tag tagname WITHOUT supplying -a, -s, or -m.You can also tag commits 
-after you’ve moved past them. Suppose your commit history looks like this:
+after youâ€™ve moved past them. Suppose your commit history looks like this:
 9fceb02d0ae598e95dc970b74767f19372d61af8 updated rakefile, you can use the
 command: git tag -a tagname 9fceb02 to add the commit to the tag. When you
 specify the commit SHA-1, it doesn't have to be the whole code. By default,
@@ -28,3 +28,4 @@ by using: git push origin tagname.If you have a lot of tags that you want to pus
 up at once, you can also use the --tags option to the git push command. This will 
 transfer all of your tags to the remote server that are not already there. Example:
 git push origin --tags.
+To show a specific tag, use the command: git show tagname
