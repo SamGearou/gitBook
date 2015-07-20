@@ -10,3 +10,4 @@ Another useful command is: git rebase [basebranch] [topicbranch] – which checks 
 (in this case, server) for you and replays it onto the base branch (master)
 For example:git rebase master deploy is the same thing as: git checkout deploy
 and git rebase master
+Do not rebase commits that exist outside your repository!!
